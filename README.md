@@ -1,6 +1,6 @@
 # x86-64 Memory Management for a Minimal Kernel
 
-This project was completed as part of a university operating systems course in a team of two.
+Modern operating systems rely on physical and virtual memory management to isolate processes and efficiently map memory. This project implements these core mechanisms for a minimal x86-64 kernel. It was completed as part of a university operating systems course in a team of two.
 
 Building on a minimal UEFI bootloader and kernel framework provided by the course, our team designed and implemented a complete memory management subsystem, including a bitmap-based Physical Memory Manager (PMM), a four-level x86-64 Virtual Memory Manager (VMM), page permission management, and paging initialization. The subsystem was integrated into the existing boot process and successfully validated by booting the kernel in QEMU.
 
